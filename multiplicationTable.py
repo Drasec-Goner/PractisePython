@@ -4,3 +4,4 @@ while i<=10:
     print(f"{user} x {i} =",user*i)
     i+=1
 
+
