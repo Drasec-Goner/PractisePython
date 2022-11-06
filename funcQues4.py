@@ -2,7 +2,7 @@
 
 
 a =[32,21,64,100,13]
-even,odd =0,0
+even,odd =0
 def evenOdd(a):
     global even
     global odd
