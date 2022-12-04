@@ -1,3 +1,5 @@
+from functools import reduce
+
 def isEven(i):
     return i%2==0
 
@@ -13,3 +15,9 @@ print(output3)
 
 output4 = list(map(lambda x:x**2,list1))
 print(output4)
+
+output5 = reduce(lambda a,b:a+b,list1)
+print(output5)
+
+output6 = reduce(lambda a,b:a*b,list1)
+print(output6)
