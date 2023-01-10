@@ -1,7 +1,7 @@
 myDict = {
     "name":"Atul",
     "age":21,
-    "percentage":99.9
+    "percentage":69.9
 }
 
 a = myDict.get("name")
